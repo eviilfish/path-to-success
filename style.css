@@ -82,40 +82,41 @@ header p {
 nav {
     background-color: var(--yellow);
 }
+/*Services section*/
 .services {
     background-color: var(--purple);
+    padding-bottom: 5px;
 }
 .services h2 {
-    padding: 10px 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
 }
 .services h3 {
     padding-top: 0;
-    padding-bottom: 15px;
     padding-left: 20px;
 }
-.personalDevelopment {
+.personalDevelopment, 
+.careerCoaching,
+.relationshipCoaching,
+.supportiveComm,
+.focusedSess,
+.interactiveLearning,
+.flexibleLearning
+{
     background-color: var(--white);
     max-width: 370px;
     border-radius: 10px;
     padding: 20px;
-    margin: 0 auto;
+    margin: 15px auto;
+    line-height: 1.6em;
 }
-.careerCoaching {
-    background-color: var(--white);
-    max-width: 370px;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 0 auto;
-}
-.relationshipCoaching {
-    background-color: var(--white);
-    max-width: 370px;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 0 auto;
-}
+/*Why choose us section*/
 .choose {
     background-color: var(--pink);
+}
+.choose h2 {
+    padding: 15px 20px;
 }
 .pricing {
     background-color: var(--purple);
@@ -156,5 +157,6 @@ h4 {
     font-size: 1.15em;
     color: var(--purple);
     font-weight: bold;
+    line-height: 2em;
 }
 /**/
