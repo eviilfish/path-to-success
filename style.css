@@ -65,6 +65,39 @@ table {
 @media (max-width: 450px) {
 
 }
+body, footer {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: var(--lavender);
+}
+header {
+    background-color: var(--purple);
+    text-align: center;
+    padding: 30px;
+}
+header p {
+    color: var(--white);
+    font-style: italic;
+}
+nav {
+    background-color: var(--yellow);
+}
+.services {
+    background-color: var(--purple);
+}
+.choose {
+    background-color: var(--pink);
+}
+.pricing {
+    background-color: var(--purple);
+}
+.firstStep {
+    background-color: var(--pink);
+}
+footer {
+    background-color: var(--purple);
+}
+/*font sizing*/
 h1, h2 {
     font-family: Kavoon, sans-serif;
 }
@@ -73,12 +106,17 @@ p, h3, h4 {
 }
 h1 {
     font-size: 3em;
+    color: var(--white);
 }
 nav h2 {
     font-size: 1.5em;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    color: var(--dark-gray);
 }
 h2 {
     font-size: 2em;
+    color: var(--white);
 }
 h3 {
     font-size: 1.5em;
@@ -86,3 +124,4 @@ h3 {
 h4 {
     font-size: 1.15em;
 }
+/**/
