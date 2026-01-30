@@ -76,13 +76,36 @@ header {
     padding: 30px;
 }
 header p {
+    padding-top: 10px;
     color: var(--white);
     font-style: italic;
+    font-size: 0.9em;
 }
 nav {
     background-color: var(--yellow);
+    text-align: center;
+    text-transform: uppercase;
+    gap: 1rem;
 }
-/*Services section*/
+nav ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    background-color: var(--white);
+    color: var(--purple);
+    font-weight: bold;
+    margin: auto;
+}
+nav li {
+    list-style-type: none;
+    width: 350px;
+    padding: 10px;
+}
+nav h2 {
+    font-style: italic;
+    padding: 10px;
+}
+/*Services section-----------------------------*/
 .services {
     background-color: var(--purple);
     padding-bottom: 5px;
@@ -111,27 +134,100 @@ nav {
     margin: 15px auto;
     line-height: 1.6em;
 }
-/*Why choose us section*/
+/*Why choose us Section-----------------------------*/
 .choose {
     background-color: var(--pink);
 }
 .choose h2 {
     padding: 15px 20px;
 }
+.choose ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+.tealC {
+    background-color: var(--teal);
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 0 7px 15px 15px;
+}
+.lavenderC {
+    background-color: var(--lavender);
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 0 15px 15px 7px;
+}
+.yellowC {
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 0 7px 15px 15px;
+}
+.whiteC {
+    background-color: var(--white);
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 0 15px 15px 7px;
+}
+/*Pricing Section-----------------------------*/
 .pricing {
     background-color: var(--purple);
+    padding-bottom: 10px;
 }
+.pricing h2 {
+    padding: 15px 20px 0px 20px;
+}
+.pricing h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.table1,
+.table2,
+.table3,
+.table4
+{
+    font-family: Inter, sans-serif;
+    margin: auto;
+}
+.table1 th,
+.table2 th,
+.table3 th,
+.table4 th
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--yellow);
+    padding: 15px 25px;
+    border: solid 2px var(--yellow);
+}
+.table1 td,
+.table2 td,
+.table3 td,
+.table4 td
+{
+    background-color: var(--white);
+    padding: 15px 25px;
+    border: solid 2px var(--yellow);
+}
+/*first step Section-----------------------------*/
 .firstStep {
     background-color: var(--pink);
 }
+/*footer Section-----------------------------*/
 footer {
     background-color: var(--purple);
 }
-/*font sizing*/
+/*font sizing Section-----------------------------*/
 h1, h2 {
     font-family: Kavoon, sans-serif;
 }
-p, h3, h4 {
+p, h3, h4, ul {
     font-family: Inter, sans-serif;
 }
 h1 {
