@@ -101,6 +101,10 @@ nav li {
     width: 350px;
     padding: 10px;
 }
+nav a {
+    padding: 20px;
+    text-decoration: none;
+}
 nav h2 {
     font-style: italic;
     padding: 10px;
